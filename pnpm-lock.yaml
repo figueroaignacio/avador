@@ -128,6 +128,9 @@ importers:
 
   packages/ui:
     dependencies:
+      class-variance-authority:
+        specifier: ^0.7.1
+        version: 0.7.1
       react:
         specifier: ^19.1.0
         version: 19.1.0
@@ -135,6 +138,9 @@ importers:
         specifier: ^19.1.0
         version: 19.1.0(react@19.1.0)
     devDependencies:
+      '@avador/theme':
+        specifier: workspace:*
+        version: link:../theme
       '@repo/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
@@ -1357,6 +1363,9 @@ packages:
   ci-info@4.2.0:
     resolution: {integrity: sha512-cYY9mypksY8NRqgDB1XD1RiJL338v/551niynFTGkZOO2LHuB2OmOYxDIe/ttN9AHwrqdum1360G3ald0W9kCg==}
     engines: {node: '>=8'}
+
+  class-variance-authority@0.7.1:
+    resolution: {integrity: sha512-Ka+9Trutv7G8M6WT6SeiRWz792K5qEqIGEGzXKhAE6xOWAY6pPH8U+9IY3oCMv6kqTmLsv7Xh/2w2RigkePMsg==}
 
   clean-stack@2.2.0:
     resolution: {integrity: sha512-4diC9HaTE+KRAMWhDhrGOECgWZxoevMc5TlkObMqNSsVU62PYzXZ/SMTjzyGAFF1YusgxGcSWTEXBhp0CPwQ1A==}
@@ -4907,6 +4916,10 @@ snapshots:
       readdirp: 4.1.2
 
   ci-info@4.2.0: {}
+
+  class-variance-authority@0.7.1:
+    dependencies:
+      clsx: 2.1.1
 
   clean-stack@2.2.0: {}
 
