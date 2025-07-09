@@ -9,15 +9,22 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/react": "^4.3.0",
     "@avador/theme": "workspace:*",
     "@avador/ui": "workspace:*",
-    "@astrojs/react": "^4.3.0",
     "@fontsource-variable/cinzel": "^5.2.6",
     "@fontsource-variable/inter": "^5.2.6",
+    "@portabletext/types": "^2.0.13",
+    "@sanity/astro": "^3.2.6",
+    "@sanity/client": "^6.29.1",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "astro": "^5.10.1",
+    "astro-portabletext": "^0.11.1",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "react-is": "^19.1.0",
+    "sanity": "^3.98.1",
+    "styled-components": "^6.1.19"
   }
 }
