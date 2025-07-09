@@ -24,7 +24,7 @@ importers:
 
   apps/ecommerce:
     dependencies:
-      '@repo/ui':
+      '@avador/ui':
         specifier: workspace:*
         version: link:../../packages/ui
       next:
@@ -67,15 +67,15 @@ importers:
       '@avador/theme':
         specifier: workspace:*
         version: link:../../packages/theme
+      '@avador/ui':
+        specifier: workspace:*
+        version: link:../../packages/ui
       '@fontsource-variable/cinzel':
         specifier: ^5.2.6
         version: 5.2.6
       '@fontsource-variable/inter':
         specifier: ^5.2.6
         version: 5.2.6
-      '@repo/ui':
-        specifier: workspace:*
-        version: link:../../packages/ui
       '@types/react':
         specifier: ^19.1.8
         version: 19.1.8
