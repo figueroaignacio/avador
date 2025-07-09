@@ -1,6 +1,9 @@
 ---
+import Header from '../components/Header/Header.astro';
+
 import '@avador/theme/reset.css';
 import '@avador/theme/theme.css';
+import '../css/globals.css';
 
 interface Props {
   title?: string;
@@ -33,6 +36,7 @@ const {
     />
   </head>
   <body style="font-family: 'Inter', sans-serif;">
+    <Header />
     <main>
       <slot />
     </main>
