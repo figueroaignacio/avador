@@ -9,9 +9,11 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@repo/ui": "workspace:*",
-    "@avador/theme": "workspace:*",
     "@astrojs/react": "^4.3.0",
+    "@avador/theme": "workspace:*",
+    "@fontsource-variable/cinzel": "^5.2.6",
+    "@fontsource-variable/inter": "^5.2.6",
+    "@repo/ui": "workspace:*",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "astro": "^5.10.1",
