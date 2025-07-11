@@ -1,42 +1,11 @@
 ---
-import { Button } from '@avador/ui/button/button';
+// Layouts
 import Layout from '../layout/Layout.astro';
+
+// Sections
+import Hero from '../sections/Hero/Hero.astro';
 ---
 
 <Layout>
-  <section>
-    <h1>Avador 1842 - Encontrá tu esencia, econtrá tu aroma perfecto.</h1>
-    <h2>Próximamente, desde Monte Grande, Bs As. Argentina</h2>
-    <div>
-      <p>Variantes de Botones</p>
-      <Button variant="primary">Click</Button>
-      <Button variant="secondary">Click</Button>
-      <Button variant="outline">Click</Button>
-      <Button variant="ghost">Click</Button>
-      <Button variant="link">Click</Button>
-      <Button variant="destructive">Click</Button>
-    </div>
-  </section>
+  <Hero />
 </Layout>
-
-<style is:inline>
-  section {
-    min-height: 100lvh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-  }
-
-  div {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-
-  h1 {
-    font-family: var(--font-serif);
-    font-weight: 700;
-  }
-</style>
