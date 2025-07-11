@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@astrojs/react": "^4.3.0",
+    "@astrojs/vercel": "^8.2.1",
     "@avador/theme": "workspace:*",
     "@avador/ui": "workspace:*",
     "@fontsource-variable/cinzel": "^5.2.6",

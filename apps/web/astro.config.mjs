@@ -3,7 +3,8 @@ import react from '@astrojs/react';
 import sanity from '@sanity/astro';
 import { defineConfig } from 'astro/config';
 
-// https://astro.build/config
+import vercel from '@astrojs/vercel';
+
 export default defineConfig({
   integrations: [
     react(),
@@ -15,4 +16,5 @@ export default defineConfig({
       useCdn: false,
     }),
   ],
+  adapter: vercel(),
 });
