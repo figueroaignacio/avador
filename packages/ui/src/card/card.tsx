@@ -1,7 +1,7 @@
 import { cva, type VariantProps } from 'class-variance-authority';
 import { clsx } from 'clsx';
 import { HTMLAttributes, type JSX, type ReactNode } from 'react';
-import styles from './Card.module.css';
+import styles from './card.module.css';
 
 const cardVariants = cva(styles.cardBase, {
   variants: {
