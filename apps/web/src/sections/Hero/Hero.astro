@@ -5,11 +5,18 @@ import styles from './Hero.module.css';
 
 <section class={styles.hero}>
   <div class={styles.content}>
-    <h1 class={styles.title}>Avador 1842 – Encontrá tu esencia, encontrá tu aroma perfecto.</h1>
-    <h2 class={styles.subtitle}>Próximamente, desde Monte Grande, Bs. As. Argentina</h2>
+    <h1 class={styles.title}>Encontrá tu esencia, encontrá tu aroma perfecto.</h1>
+    <h2 class={styles.subtitle}>
+      En Avador 1842 seleccionamos para vos las mejores fragancias originales del mercado argentino.
+      Perfumes exclusivos, con calidad garantizada, para que expreses tu personalidad con estilo.
+    </h2>
     <div class={styles.buttons}>
-      <Button variant="primary">Explorar Catálogo</Button>
-      <Button variant="secondary">Conoce más sobre nosotros</Button>
+      <a href="/home">
+        <Button variant="primary">Explorar Catálogo</Button>
+      </a>
+      <a href="/posts/">
+        <Button variant="secondary">Conoce más sobre nosotros</Button>
+      </a>
     </div>
   </div>
 </section>
